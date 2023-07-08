@@ -1,0 +1,9 @@
+differenec between get key and get key 
+Answer
+
+GetKeyDown in fact represents a single key stroke
+
+GetKey Returns true while the user holds down the key identified by name
+
+
+https://docs.unity3d.com/ScriptReference/Input.GetKey.html.

@@ -1,0 +1,125 @@
+// colors
+
+body{
+    background-color: $bg;
+    outline: 0;
+    margin: 0;
+    font-family: 'poppins','san-serif';
+    box-sizing: border-box;
+    padding: 0;
+    .top{
+        position: fixed;
+        bottom: 2%;
+        right: 2%;
+        width: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 39px;
+        background-color: $orange;
+        z-index: 1500;
+        box-shadow: 0 -1px 29px 0px #22222284;
+        border-radius: 10px;
+        cursor: pointer;
+        opacity: 0;
+        transition: 0.1ms;
+        &:hover{
+            transform: scale(1.02);
+        }
+        span{
+            font-size: 30px;
+            
+            color: white;
+            transform: rotate(90deg);
+        }
+    }
+    .mainnav{
+        transition: 0.7s ease-in-out;
+        width: 100%;
+        background-color: $white;
+        position: fixed;
+        top: -120%;
+        height: 100vh;
+        right: 0%;
+        bottom: 0%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        flex-direction: column;
+        z-index: 2000;
+        .wrapper{
+            margin-right:7% ;
+            margin-bottom: 5%;
+            span{
+                position: absolute;
+                top: 7%;
+                right: 7%;
+                font-size: 67px;
+                font-weight: 500;
+                cursor: pointer;
+                @media #{$md}{
+                    font-size: 64px;
+                }
+                @media #{$sm}{
+                    font-size: 59px;
+                }
+                @media #{$xs}{
+                    font-size: 64px;
+                }
+            }
+            ul{
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: space-around;
+                li{
+                    padding: 10px;
+                    font-size: 26px;
+                    font-family: 'poppins', sans-serif;
+                    
+                    &:hover a{
+                        padding-left: 35px;
+                    }
+                    &:hover a::before {
+                        opacity: 1;
+                        right: 0;
+                    }
+
+                    a{
+                        color:$bg;
+                        cursor: pointer;
+                        display: inline-block;
+                        position: relative;
+                        transition: 0.5s;
+                        &::before{
+                            content: '/';
+                            position: absolute;
+                            opacity: 0;
+                            width: 27px;
+                            height: 13px;
+                            top: 0;
+                            left: -20px;
+                            transition: 0.5s;
+
+                        }
+                        
+                        
+                       
+                        
+                        
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+    .reveal{
+        top: 0%;
+    }
+
+}
+
+
+
