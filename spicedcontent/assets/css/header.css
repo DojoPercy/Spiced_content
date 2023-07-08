@@ -1,0 +1,58 @@
+header {
+  background-color: transparent;
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-transition: 2s ease-out;
+  transition: 2s ease-out;
+  top: -100%;
+  right: 0;
+  z-index: 994;
+  z-index: 1;
+  height: auto;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: inherit;
+  height: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .logo img {
+  width: 20%;
+}
+
+header nav .logo .logo1 {
+  display: none;
+}
+
+header nav .logo .neutral {
+  display: block;
+}
+
+header nav .navitem .bar {
+  cursor: pointer;
+}
+
+header nav .navitem .bar img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.window-scroll {
+  background-color: #f0fde2;
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(2.5px);
+          backdrop-filter: blur(2.5px);
+  position: fixed;
+  top: 0;
+}
+/*# sourceMappingURL=header.css.map */

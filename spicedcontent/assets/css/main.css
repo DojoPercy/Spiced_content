@@ -1,0 +1,16 @@
+main {
+  height: auto;
+}
+
+main .hero {
+  height: 80vh;
+}
+
+main .hero .wrapper {
+  background-image: url(/assets/img/realhero.png);
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=main.css.map */
