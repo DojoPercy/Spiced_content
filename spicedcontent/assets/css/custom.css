@@ -1,0 +1,105 @@
+body {
+  background-color: #0a0f0b;
+  outline: 0;
+  margin: 0;
+  font-family: 'poppins','san-serif';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+body .mainnav {
+  -webkit-transition: 0.7s ease-in-out;
+  transition: 0.7s ease-in-out;
+  width: 100%;
+  background-color: #f0fde3;
+  position: fixed;
+  top: -100%;
+  height: 100vh;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 2000;
+}
+
+body .mainnav .wrapper {
+  margin-right: 7%;
+  margin-bottom: 5%;
+}
+
+body .mainnav .wrapper span {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+  font-size: 67px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+body .mainnav .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .mainnav .wrapper ul li {
+  padding: 10px;
+  font-size: 26px;
+  font-family: 'poppins', sans-serif;
+}
+
+body .mainnav .wrapper ul li:hover a {
+  padding-left: 35px;
+}
+
+body .mainnav .wrapper ul li:hover a::before {
+  opacity: 1;
+  right: 0;
+}
+
+body .mainnav .wrapper ul li a {
+  color: #0a0f0b;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .mainnav .wrapper ul li a::before {
+  content: '/';
+  position: absolute;
+  opacity: 0;
+  width: 27px;
+  height: 13px;
+  top: 0;
+  left: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .reveal {
+  top: 0%;
+}
+/*# sourceMappingURL=custom.css.map */

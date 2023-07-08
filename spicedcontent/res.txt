@@ -1,0 +1,10 @@
+http://nasfactor.com/themes/bespoke/main/index.html
+
+#171718 background color
+#252525 header color
+#5674b9 blue color
+#ffff00  yellow color
+#ed1c24 red color
+
+
+background-image: linear-gradient(to right top, #ff6a00, #cf7d00, #9c8700, #678a00, #248800);

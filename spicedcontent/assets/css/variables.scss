@@ -1,0 +1,44 @@
+$laptop: '(min-width: 1200px) and (max-width: 1600px)';
+$lg :'(min-width: 992px) and (max-width: 1199px)';
+$md:'(min-width: 768px) and (max-width: 991px)';
+$sm: '(min-width: 576px) and (max-width: 767px)';
+$xs:'(max-width: 575px)';
+$mobile: '(max-width:767px)';
+$spehie: '(max-height:420px)';
+
+
+// colors
+$bg:#0a0f0b;
+$white:#fbfbfa;
+$white1:#f0fde3;
+$tras:#e7ead7;
+$orange:#d35400;
+$black:rgb(18, 18, 18);
+$black-shades:rgb(60, 60, 60);
+$slate: #6c7a89;
+$slate-light: #aeb6bf;
+$slate-dark: #3a474f;
+$slate-50: #f4f7f9;
+$slate-100: #eaf1f5;
+$slate-200: #d6e1e8;
+$slate-300: #b3c3cf;
+$slate-400: #8fa4b1;
+$slate-500: #6c7a89;
+$slate-600: #57646e;
+$slate-700: #424e56;
+$slate-800: #2d353b;
+$slate-900: #181d20;
+
+// fonts
+ 
+$pop:'poppins','san-serif';
+$anek:'Anek Latin', sans-serif;
+$merri:'Merriweather', serif;
+$monse:'Montserrat', sans-serif;
+$nunito:'Nunito', sans-serif;
+$open:'Open Sans', sans-serif;
+$robo:'Roboto', sans-serif;
+$syn:'Syncopate', sans-serif;
+$ubu:'Ubuntu', sans-serif;
+$Space: 'Space Grotesk', sans-serif;
+

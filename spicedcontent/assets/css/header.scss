@@ -1,0 +1,53 @@
+header{
+    background-color:transparent;
+    width: 100%;
+    overflow-x: hidden;
+    transition: 0.7s ease-out;
+    top: -100%;
+    right: 0;
+    padding: 5px 0px;
+    z-index: 994;
+    // z-index: 1;
+    height: auto;
+    
+    nav{
+        
+        display: flex;
+        width: inherit;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+           
+            img{
+                width: 20%;
+            }
+            .logo1{
+                display: none;
+            }
+            .neutral{
+                display: block;
+            }
+           
+        }
+        .navitem{
+            .bar{
+                cursor: pointer;
+                padding-right: 1%;
+                img{
+                    
+                    
+                    filter: invert(100%);
+                }
+            }
+            
+        }
+    }
+}
+.window-scroll{
+    background-color: $white;
+    box-shadow: 0 -2px 19px 0px #dadada;
+    
+    position: fixed;
+    top: 0;
+}
